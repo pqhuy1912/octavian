@@ -1,0 +1,46 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: #393e46;
+    --gray-light-color: #6a727f;
+    --primary-color: #4944f2;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+}
+
+input,
+button,
+textarea{
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    border: none;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    height: 55px;
+    padding: 0 70px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}

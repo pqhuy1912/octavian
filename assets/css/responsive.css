@@ -1,0 +1,170 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .header__phone{
+        display: none;
+    }
+
+    .team__wrap{
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hero, .portfolio{
+        margin-bottom: 100px;
+    }
+
+    .hero__heading{
+        font-size: 4rem;
+    }
+
+    .hero__caption{
+        font-size: 10rem;
+    }
+    
+    .partner{
+        margin-bottom: 10px;
+    }
+
+    .team, .blog, .contact{
+        padding: 100px 0;
+    }
+
+    .blog__header{
+        margin-bottom: 50px;
+    }
+
+    .team__content{
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .blog__title{
+        font-size: 2rem;
+    }
+
+    .contact__desc{
+        margin-bottom: 50px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .header{
+        padding: 0 8px;
+    }
+    
+    .hero{
+        margin-bottom: 50px;
+    }
+
+    .hero__img{
+        width: 75%;
+    }
+
+    .hero__text{
+        left: 15px;
+    }
+    
+    .hero__heading{
+        font-size: 2rem;
+    }
+
+    .hero__caption{
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+
+    .portfolio{
+        padding: 0 8px;
+        margin-bottom: 50px;
+    }
+
+    .portfolio__item{
+        margin-bottom: 40px;
+    }
+
+    .portfolio__image{
+        margin-bottom: 30px;
+    }
+    
+    .portfolio__title{
+        font-size: 2rem;
+    }
+
+    .partner__link{
+        margin-bottom: 25px;
+    }
+
+    .team, .blog, .contact{
+        padding: 50px 8px;
+    }
+
+    .team__content{
+        width: unset;
+        margin-bottom: 60px;
+    }
+
+    .team__content-heading{
+        font-size: 2.5rem;
+        line-height: 4rem;
+        margin-bottom: 20px;
+    }
+
+    .team__content-desc{
+        margin-bottom: 30px;
+    }
+
+    .blog__header{
+        width: unset;
+        margin-bottom: 30px;
+    }
+
+    .blog__header-heading{
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    
+    .blog__header-desc{
+        font-size: 1.6rem;
+    }
+    
+    .blog__item{
+        margin-bottom: 30px;
+    }
+
+    .blog__title{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .contact__heading{
+        font-size: 2.6rem;
+        line-height: 4.2rem;
+        margin-bottom: 20px;
+    }
+
+    .contact__desc{
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+
+    .footer__top{
+        padding: 50px 8px;
+    }
+
+    .footer__item{
+        margin-bottom: 30px;
+    }
+
+    .footer__container{
+        padding: 35px 8px;
+    }
+
+    .footer__rocket{
+        width: 50px;
+        height: 50px;
+        right: 8px;
+    }
+}
